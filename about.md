@@ -4,6 +4,4 @@ title: About
 permalink: /about/
 ---
 
-We are IMAYTEC a company of technology and researching.
-We are building our own website and it is comming soon.
-We are very sorry for the apologies!
+We are IMAYTEC, a tech and research company. Our website is under construction and it is coming soon. We are sorry for the inconveniences.
