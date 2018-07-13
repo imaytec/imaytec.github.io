@@ -6,6 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-<strong>
+
+<strong id="strong-intro">
 WE ARE COMMING SOON...
 </strong>

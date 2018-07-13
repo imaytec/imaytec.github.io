@@ -72,3 +72,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$start-color'
 .site-title, .site-title:visited {
     color: $grey-color-light;
 }
+
+
+/**
+ * Site strong intro
+ */
+#strong-intro  {
+    animation: glow .5s infinite alternate;
+    font-size: 55px;
+}
+
+@keyframes glow {
+    to {
+        text-shadow: 0 0 10px $grey-color-light;
+    }
+}
+
+#home-div p {
+    display: flex;
+    align-items: center;
+}
+
+#home-div {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
