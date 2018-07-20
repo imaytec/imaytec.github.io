@@ -16,7 +16,7 @@
 title: IMAYTEC
 email: info@imaytec.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a website of imaytec.com - Este es un sitio web de imaytec.com
+  Investigación, Desarrollo e Innovación
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://imaytec.com" # the base hostname & protocol for your site, e.g. http://example.com
 lang: es-EC
@@ -24,9 +24,13 @@ twitter_username:
 github_username:  imaytec
 
 # Header pages
-header_pages:
-  - about.md
+# header_pages:
+#   - about.md
+#   - home.md
 #  - portfolio.md
+
+# Exclude dir & files (demos)
+exclude: ["en/"]
 
 # Build settings
 markdown: kramdown
@@ -35,7 +39,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-#Google Analytics
+# Google Analytics
 google_analytics: UA-122335112-1
 
 # Exclude from processing.

@@ -7,6 +7,5 @@
 layout: home
 ---
 
-<strong id="strong-intro">
-WE ARE COMMING SOON...
-</strong>
+{:#strong-intro}
+**Una comunidad de desarrolladores para emprendedores, investigadores e industriales.**
