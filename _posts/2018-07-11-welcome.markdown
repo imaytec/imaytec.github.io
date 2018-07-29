@@ -1,0 +1,8 @@
+---
+layout: post
+list_title: News
+title:  Bienvenidos
+date:   2018-07-11 05:34:42 -0500
+categories: bienvenida noticias
+---
+Estamos en construcción, muy pronto estaremos en linea.
