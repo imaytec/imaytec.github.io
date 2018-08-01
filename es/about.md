@@ -4,4 +4,6 @@ title: Acerca de
 permalink: /about/
 ---
 
-Nosotros somos IMAYTEC, una compañía de tecnología e investigación. Estamos construyendo nuestro sitio WEB. Lo sentimos por cualquier inconveniente.
+IMAYTEC es una compañía de investigación y desarrollo tecnológico, que nace con el proposito de brindar a emprendedores, investigadores, e industrias, la posibilidad de materializar sus ideas de producto electrónico o servicio digital.
+*Estamos construyendo nuestro sitio WEB.*
+Agradecemos su compresión.
