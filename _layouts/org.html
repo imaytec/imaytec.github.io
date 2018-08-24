@@ -14,12 +14,8 @@ layout: default
     <ul class="post-list">
       {%- for members in site.members -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ members.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ members.url | relative_url }}">
-            {{ members.title | escape }}
-          </a>
+            {{ members.title | default: "Name" }}
         </h3>
         {{ members.content }}
         {%- if site.show_excerpts -%}
@@ -28,8 +24,6 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>
