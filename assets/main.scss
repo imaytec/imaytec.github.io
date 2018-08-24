@@ -80,17 +80,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$start-color'
 #strong-intro  {
     animation: glow .5s infinite alternate;
     font-size: 2em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @keyframes glow {
     to {
         text-shadow: 0 0 10px $grey-color-light;
     }
-}
-
-#home-div p {
-    display: flex;
-    align-items: center;
 }
 
 #home-div {
@@ -102,8 +103,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$start-color'
     // background-origin: padding-box, padding-box;
     // background-clip: border-box, border-box;
     min-height: 500px;
-    display: flex;
-    // position: relative;
-    justify-content: center;
-    text-align: center;
+    position: relative;
 }
