@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: org
 title: Acerca de
+list_title: Equipo
 permalink: /about/
 ---
 

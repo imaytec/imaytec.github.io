@@ -31,7 +31,11 @@ facebook_username:  imaytec
 #  - portfolio.md
 
 # Exclude dir & files (demos)
-exclude: ["en/"]
+exclude: ["en/", "_members/en/"]
+
+# Collections
+collections:
+- members
 
 # Build settings
 markdown: kramdown
