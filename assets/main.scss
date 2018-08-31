@@ -105,3 +105,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$start-color'
     min-height: 500px;
     position: relative;
 }
+
+
+/**
+ * Organization content
+ */
+.org-list-heading {
+    @include relative-font-size(1.75);
+  }
+  
+.org-list {
+margin-left: 0;
+list-style: none;
+
+    > li {
+        border: 10px solid;
+        padding: 2vw;
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20px 100%, calc(100% - 20px));
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+        margin-bottom: $spacing-unit;
+    }
+}

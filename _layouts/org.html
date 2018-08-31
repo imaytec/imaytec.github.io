@@ -10,8 +10,8 @@ layout: default
   {{ content }}
 
   {%- if site.members.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Team" }}</h2>
-    <ul class="post-list">
+    <h2 class="org-list-heading">{{ page.list_title | default: "Team" }}</h2>
+    <ul class="org-list">
       {%- for members in site.members -%}
       <li>
         <h3>
