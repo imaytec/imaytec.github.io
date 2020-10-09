@@ -119,10 +119,10 @@ margin-left: 0;
 list-style: none;
 
     > li {
-        border: 10px solid;
+        border: 2px solid;
         padding: 2vw;
-        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20px 100%, calc(100% - 20px));
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+        -webkit-clip-path: url(#svgPath);
+        clip-path: url(#svgPath);
         margin-bottom: $spacing-unit;
     }
 }
